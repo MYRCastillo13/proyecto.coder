@@ -1,0 +1,354 @@
+body {
+	background-color: rgb(148, 15, 61);
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*MENU*/
+.header{
+	background-color: #FEF5ED;
+    width: 100%;
+    height: 6.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 6;
+    box-shadow: rgb(43  15  19 / 30%) 0.1rem 1.2rem 1rem ;
+
+}
+
+.header--contenedor{
+    align-items: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header__navbar{
+    margin-right: 20px;
+}
+
+.header__navbar ul{
+	display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.header__navbar li{
+    display: inline-flex;
+    float: left;
+    text-align: center;
+    flex: auto;
+
+}
+
+.header__navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 1.1rem;
+    background-color: burlywood;
+}
+
+.header__logo{
+    width: 50%;
+    height: auto;
+
+}
+
+.img-diseño{
+	width: 100%;
+}
+
+.section__contenido {
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+
+}
+
+
+/*VIDEO*/
+.contenedor {
+	width: 30%;
+	height: auto;
+	margin: 3rem;
+	
+}
+
+/*grids*/
+.main--container{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main--container .section--principal {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 100%;
+}
+
+.main--container .section--principal h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 0.5rem 0.5rem 0.5rem #000;
+    position: relative;
+    top: 25rem;
+}
+
+.foto-camara{
+	width: 100%;
+}
+
+/* PORTAFOLIO */
+.portafolio{
+	font-family: inherit;
+	font-size: 10rem;
+	color: white;
+	text-align: center;
+}
+
+.galery{
+    width: 98%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+
+.galery  img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    align-items: center;
+    transition:linear;
+    }
+
+/* SECCION CONTACTO */
+
+.redes {
+    font-size: 500%;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+    color: bisque;
+    
+}
+
+.imgredes{
+    width: 100%;
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+.boton {
+    color: black;
+    background-color: #D3E4CD;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+/*VISTA MOVIL */
+@media only screen and (max-width:599px) {
+    body {
+        background-color: rgb(148, 15, 61);
+        width: 100%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    /*MENU*/
+    .header{
+        background-color: #FEF5ED;
+        width: 100%;
+        height: 6.25rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 6;
+        box-shadow: rgb(43  15  19 / 30%) 0.1rem 1.2rem 1rem ;
+    
+    }
+    
+    .header--contenedor{
+        align-items: center;
+        flex-wrap: wrap;
+        width: 98%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding-left:15%;
+    }
+    
+    .header__navbar{
+        margin-right: 20px;
+    }
+    
+    .header__navbar ul{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .header__navbar li{
+        display: inline-flex;
+        float: left;
+        text-align: center;
+        flex: auto;
+    
+    }
+    
+    .header__navbar a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: aliceblue;
+        font-size: 1.2rem;
+        padding: 1.1rem;
+        background-color: burlywood;
+    }
+    
+    .header__logo{
+        width: 50%;
+        height: auto;
+    
+    }
+    
+    .img-diseño{
+        width: 100%;
+    }
+    
+    .section__contenido {
+        text-align: center;
+        margin: 50px;
+        padding: 30px;
+    
+    }
+    
+    
+    /*VIDEO*/
+    .contenedor {
+        width: 30%;
+        height: auto;
+        margin: 3rem;
+        
+    }
+    
+    /*grids*/
+    .main--container{
+       display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .main--container .section--principal {
+    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50rem;
+        width: 100%;
+    }
+    
+    .main--container .section--principal h1{
+        color: #fff;
+        font-size: 4rem;
+        font-weight: bold;
+        text-shadow: 0.5rem 0.5rem 0.5rem #000;
+        position: relative;
+        top: 25rem;
+    }
+    
+    .foto-camara{
+        width: 100%;
+    }
+    
+    /* PORTAFOLIO */
+    .portafolio{
+        font-family: inherit;
+        font-size: 10rem;
+        color: white;
+        text-align: center;
+    }
+    
+    .galery{
+        width: 98%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        padding: 1rem;
+        margin: 2rem auto;
+    }
+    
+    .galery  img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+        align-items: center;
+        transition:linear;
+        }
+    
+    /* SECCION CONTACTO */
+    
+    .redes {
+        font-size: 500%;
+        text-align: center;
+        margin: 50px;
+        padding: 30px;
+        color: bisque;
+        
+    }
+    
+    .imgredes{
+        width: 100%;
+    }
+    
+    .campo {
+        display: block;
+        width: 50%;
+        padding: 10px;
+        margin: 10px auto;
+    
+    }
+    
+    .boton {
+        color: black;
+        background-color: #D3E4CD;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+    } 
+}
